@@ -8,7 +8,7 @@ First you need to fill in the Client-ID: and the Cookie: headers, to do that you
 
 Fill it in with any info, but redirect URI can be http://localhost
 
-When it is created it will give you a Client-ID which you will then put inside the Client-ID header
+When it is created it will give you a Client-ID which you will then put inside the Client-ID: header
 
 To fill in the cookie header you will need to have created and logged in to your twitch account at least once in your current browser. The cookie you are looking for is called "persistent" under "twitch.tv"
 
@@ -28,6 +28,8 @@ Your file should now contain something like this:
     -H 'Cookie: persistent=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;' \
 
 Then make sure the shellscript has executable permission
+
+Remove the -s flag if you need error outputs or additional info about the request
 
 ## toggle-presentation.sh
 ##### A simple script that toggles the presentation mode of the Power manager program to prevent screen dimming.
