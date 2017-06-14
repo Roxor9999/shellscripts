@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl -H 'Accept: application/vnd.twitchtv.v5+json' \
+curl -sH 'Accept: application/vnd.twitchtv.v5+json' \
 	-H 'Client-ID: ReplaceMe' \
 	-H 'Cookie: persistent=ReplaceMe;' \
 	-X GET 'https://api.twitch.tv/kraken/streams/followed' \
