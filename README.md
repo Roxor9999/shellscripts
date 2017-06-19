@@ -30,8 +30,3 @@ Your file should now contain something like this:
 Then make sure the shellscript has executable permission
 
 Remove the -s flag if you need error outputs or additional info about the request
-
-## toggle-presentation.sh
-##### A simple script that toggles the presentation mode of the Power manager program to prevent screen dimming.
-
-Requires xfce4-power-manager and xfce4-notifyd to be installed
